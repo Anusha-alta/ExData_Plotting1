@@ -9,4 +9,4 @@ df1 <- read.csv.sql("household_power_consumption.txt", sep = ";", header = TRUE,
 
 # Histogram for Global active power
 
-hist(df1$Global_active_power, xlab = "Global Active Power (Kilowatts)", col = "red", main="Global Active Power")
+hist(df1$Global_active_power, xlab = "Global Active Power (Kilowatts)", col = "red", main="Global Active Power", title = "Global Active Power")
